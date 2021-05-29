@@ -1,5 +1,6 @@
 //2021/5/29
-/* 1^2 = 1 
+/* 
+   1^2 = 1 
    2^2 = 4
    3^2 = 9
    4^2 = 16 , 1^2+6^2 = 37 , 3^2+7^2 = 58 , 5^2+8^2 = 89 , 8^2+9^2 = 145...
@@ -11,7 +12,6 @@
 
   1~9 only 1、7 is happy number
 */
-
 /*
 bool isHappy(int n){
     int sum=0;
@@ -29,7 +29,6 @@ bool isHappy(int n){
     return;
 }
 */
-
 bool isHappy(int n) {
     while (n > 6) {    // n>6 進入迴圈
         int sum = 0;
@@ -43,4 +42,3 @@ bool isHappy(int n) {
     }
     return n == 1; //判斷false or ture
 }
-
